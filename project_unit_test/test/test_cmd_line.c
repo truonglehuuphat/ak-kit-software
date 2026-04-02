@@ -33,7 +33,7 @@ void test_valid_command(void) {
     uint8_t cmd[] = "help";
     TEST_ASSERT_EQUAL(CMD_TBL_NOT_FOUND,
         cmd_line_parser(cmd_table, cmd));
-    TEST_ASSERT_EQUAL(1, func_called);
+    TEST_ASSERT_EQUAL(CMD_TBL_NOT_FOUND, func_called);
 }
 void test_command_with_space(void) {
     uint8_t cmd[] = "help abc";
