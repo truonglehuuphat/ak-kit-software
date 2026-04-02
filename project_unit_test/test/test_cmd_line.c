@@ -67,7 +67,8 @@ void test_command_with_space_head(void) {
     TEST_ASSERT_EQUAL(CMD_NOT_FOUND,
         cmd_line_parser(cmd_table, cmd));
 }
-/* ================= MAIN ================= */ int main(void) {
+/* ================= MAIN ================= */ 
+int main(void) {
     UNITY_BEGIN();
     RUN_TEST(test_null_table);
     RUN_TEST(test_valid_command);
