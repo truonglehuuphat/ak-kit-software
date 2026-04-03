@@ -35,7 +35,7 @@ test_case_t test_case[] = {
     {"Call Function CMD_TBL_NOT_FOUND", (cmd_line_t*)0, (uint8_t*)"help",CMD_TBL_NOT_FOUND},
     {"Call Function CMD_TOO_LONG", mock_func, (uint8_t*)"help help help help",CMD_TOO_LONG},
     {"Call Function CMD_NOT_FOUND", mock_func, (uint8_t*)"led On",CMD_NOT_FOUND}
-}
+};
 
 void run_test(test_case_t *tc){
     cmd_line_parser * test_data = malloc(size(cmd_line_parser));
