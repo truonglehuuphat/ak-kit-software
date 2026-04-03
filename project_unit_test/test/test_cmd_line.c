@@ -52,7 +52,7 @@ void run_test(test_case_t *tc){
         printf("[PASS]: %s  expected: %d actual: %d", tc->name_test, tc->expected_result, ret);
     }
 
-    return;
+    // return;
 }
 
 
