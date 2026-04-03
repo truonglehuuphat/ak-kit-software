@@ -57,7 +57,7 @@ void run_test(test_case_t *tc){
 
 
 int main(){
-    int total_testcase = sizeof(test_case)/ sizeof(test_case_t);
+    int total_testcase = sizeof(test_case)/ sizeof(test_case[0]);
     printf("Runing test all test case: %d\n", total_testcase);
     for(int i = 0 ; i < total_testcase; i++){
         printf("Runing test %d test case:\n", i);
