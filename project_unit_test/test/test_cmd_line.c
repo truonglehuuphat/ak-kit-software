@@ -64,5 +64,5 @@ int main(){
         run_test(&test_case[i]);
     }
 
-    return 1;
+    return 0;
 }
