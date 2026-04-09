@@ -34,6 +34,7 @@ project/
 ├── mock/
 │   └── xprintf.h
 └── Makefile
+```
 
 ---
 
